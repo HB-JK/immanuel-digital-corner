@@ -13,6 +13,12 @@ With the creation of this application, it is hoped that in the future communicat
 - [ ] Website (In Progress)
 - [ ] android (Soon)
 
+## Development
+### Infrastructure
+- Git for code management
+- GitHub for project management
+- Discord for discussions
+
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
 
