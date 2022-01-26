@@ -7,6 +7,12 @@
 Immanuel Digital Corner is an application created to facilitate communication between students, teachers and parents in the school environment.
 
 With the creation of this application, it is hoped that in the future communication between the school and the students will become clearer, more effective and definitely more instant.
+
+## Get Started
+### Platforms
+- [x] Website
+- [ ] android (soon)
+
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
 
