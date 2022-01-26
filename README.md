@@ -20,7 +20,7 @@ With the creation of this application, it is hoped that in the future communicat
 - Discord for discussions
 
 ### Engine
-| Engine                     | Version  |
+| Name                       | Version  |
 | -------------------------- | -------- |
 | Node JS                    | v14.17.3 |
 
