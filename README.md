@@ -19,6 +19,11 @@ With the creation of this application, it is hoped that in the future communicat
 - GitHub for project management
 - Discord for discussions
 
+### Engine
+| Engine                     | Version  |
+| -------------------------- | -------- |
+| Node JS                    | v14.17.3 |
+
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
 
