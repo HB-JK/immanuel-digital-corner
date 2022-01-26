@@ -31,11 +31,11 @@ With the creation of this application, it is hoped that in the future communicat
 | NPM                        | v6.14.13 |
 
 ### Frameworks
-| Name                       |
-| -------------------------- |
-| Laravel 8 with PHP 8.x     |
-| Vue 3 (tentative)          |
-| Tailwind CSS               |
+| Name                       | Role               |
+| -------------------------- | ------------------ |
+| Laravel 8 with PHP 8.x     | Backend            |
+| Vue 3 (tentative)          | Frontend           |
+| Tailwind CSS               | UI                 |
 
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
