@@ -19,6 +19,11 @@ With this application, we hope that in the future communication between the scho
 - GitHub for project management
 - Discord for discussions
 
+### Major Features
+- Marketplace
+- Rent Books
+- Attendance
+
 ### Framework
 - Laravel 8 with PHP 8.x
 - Vue 3
