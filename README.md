@@ -29,7 +29,7 @@ With this application, we hope that in the future communication between the scho
 - Vue 3
 - Tailwind CSS
 
-### Engine
+### Engine & Major Runtimes
 | Name                       | Version  |
 | -------------------------- | -------- |
 | Node JS                    | v14.17.3 |
