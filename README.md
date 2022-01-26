@@ -10,14 +10,19 @@ With this application, we hope that in the future communication between the scho
 
 ## Get Started
 ### Platforms
-- [ ] Website (In Progress)
-- [ ] Android (Soon)
+- [ ] Web (In Progress)
+- [ ] Mobile Apps (Soon)
 
 ## Development
 ### Infrastructure
 - Git for code management
 - GitHub for project management
 - Discord for discussions
+
+### Framework
+- Laravel 8 with PHP 8.x
+- Vue 3
+- Tailwind CSS
 
 ### Engine
 | Name                       | Version  |
@@ -29,11 +34,6 @@ With this application, we hope that in the future communication between the scho
 | -------------------------- | -------- |
 | Composer                   | v2.2.2   |
 | NPM                        | v6.14.13 |
-
-### Frameworks
-- Laravel 8 with PHP 8.x
-- Vue 3
-- Tailwind CSS
 
 ## About
 The Immanuel Digital Corner application was formed from the creative ideas of 12th grade TKJ 3 graduate of 2022 class from Immanuel 1 Christian Vocational High School Pontianak.
