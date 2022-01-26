@@ -2,6 +2,7 @@
 
 [![status](https://img.shields.io/badge/Status-Development-orange)](https://github.com/erickchann/immanuel-digital-corner)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://github.com/erickchann/immanuel-digital-corner#license)
+[![commits](https://badgen.net/github/commits/erickchann/immanuel-digital-corner/main)]]
 
 ## 🤔 Introduction
 Immanuel Digital Corner is an application created to facilitate communication between students, teachers and parents in the school environment.
