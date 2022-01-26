@@ -25,4 +25,6 @@ The Immanuel Digital Corner application was formed on the creative ideas of 12th
 Thanks to the guidance of the teachers as well as the cohesiveness of the Front End and Back End teams, application alignment can be created for the efficiency of all target users of the Immanuel Digital Corner application.
 
 ## License
-Copyright © Immanuel Digital Corner, Licensed under MIT.
+Copyright © 2022 - Present Immanuel Digital Corner Contributors.
+
+Licensed under MIT
