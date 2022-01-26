@@ -10,8 +10,8 @@ With the creation of this application, it is hoped that in the future communicat
 
 ## Get Started
 ### Platforms
-- [x] Website
-- [ ] android (soon)
+- [ ] Website (In Progress)
+- [ ] android (Soon)
 
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
