@@ -40,6 +40,13 @@ The Immanuel Digital Corner application was formed from the creative ideas of 12
 
 Thanks to the guidance of the teachers as well as the cohesiveness of the Front End and Back End teams, the alignment of the application can be created for the efficiency of all target users of the Immanuel Digital Corner application.
 
+## Contributing
+- Fork it ( https://github.com/erickchann/immanuel-digital-corner/fork )
+- Create your feature branch (git checkout -b my-new-feature)
+- Commit your changes (git commit -am 'Add some feature')
+- Push to the branch (git push origin my-new-feature)
+- Create a new Pull Request
+
 ## License
 Copyright © 2022 - Present Immanuel Digital Corner Contributors.
 
