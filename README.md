@@ -24,6 +24,12 @@ With the creation of this application, it is hoped that in the future communicat
 | -------------------------- | -------- |
 | Node JS                    | v14.17.3 |
 
+### Package Manager
+| Name                       | Version  |
+| -------------------------- | -------- |
+| Composer                   | v2.2.2   |
+| NPM                        | v6.14.13 |
+
 ## About
 The Immanuel Digital Corner application was formed on the creative ideas of 12th grade TKJ 3 from Immanuel 1 Pontianak Christian Vocational High School.
 
