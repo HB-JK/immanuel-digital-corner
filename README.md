@@ -27,4 +27,4 @@ Thanks to the guidance of the teachers as well as the cohesiveness of the Front 
 ## License
 Copyright © 2022 - Present Immanuel Digital Corner Contributors.
 
-Licensed under MIT
+Licensed under MIT.
