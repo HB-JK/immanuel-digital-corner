@@ -11,7 +11,7 @@ With this application, we hope that in the future communication between the scho
 ## ✨ Get Started
 ### Platforms
 - [ ] Web (In Progress)
-- [ ] Mobile Apps (Soon)
+- [ ] Mobile App (Soon)
 
 ## 👨🏻‍💻 Development
 ### Infrastructure
@@ -28,6 +28,7 @@ With this application, we hope that in the future communication between the scho
 - Laravel 8 with PHP 8.x
 - Vue 3
 - Tailwind CSS
+- Flutter
 
 ### Engine & Major Runtimes
 | Name                       | Version  |
