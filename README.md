@@ -26,11 +26,11 @@ With this application, we hope that in the future communication between the scho
 
 ### Framework
 - Laravel 8 with PHP 8.x
-- Vue 3
+- Vue 2
 - Tailwind CSS
 - Flutter
 
-### Engine & Major Runtimes
+### Major Runtimes
 | Name                       | Version  |
 | -------------------------- | -------- |
 | Node JS                    | v14.17.3 |
