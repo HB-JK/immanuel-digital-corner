@@ -33,7 +33,7 @@ With this application, we hope that in the future communication between the scho
 ### Major Runtimes
 | Name                       | Version  |
 | -------------------------- | -------- |
-| Node JS                    | v14.17.3 |
+| Node JS                    | v16.13.2 |
 
 ### Package Manager
 | Name                       | Version  |
