@@ -42,9 +42,9 @@ With this application, we hope that in the future communication between the scho
 | NPM                        | v6.14.13 |
 
 ## 💻 About
-The Immanuel Digital Corner application was formed from the creative ideas of 12th grade TKJ 3 graduate of 2022 class from Immanuel 1 Christian Vocational High School Pontianak.
+The Immanuel Digital Corner application was formed from the creative ideas of 12th grade graduate of 2022 class from Immanuel 1 Christian Vocational High School Pontianak.
 
-Thanks to the guidance of the teachers as well as the cohesiveness of the Front End and Back End teams, the alignment of the application can be created for the efficiency of all target users of the Immanuel Digital Corner application.
+Thanks to the guidance of the teachers as well as the cohesiveness of the Front End, Back End teams and Designer Teams, the alignment of the application can be created for the efficiency of all target users of the Immanuel Digital Corner application.
 
 ## 💪🏻 Contributing
 - Fork it ( https://github.com/erickchann/immanuel-digital-corner/fork )
