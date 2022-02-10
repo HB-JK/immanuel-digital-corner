@@ -23,6 +23,7 @@ With this application, we hope that in the future communication between the scho
 - Marketplace
 - Rent Books
 - Attendance
+- Social Credit
 
 ### Framework
 - Laravel 8 with PHP 8.x
