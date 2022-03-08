@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ItemRequest;
 use App\Models\Item;
 use Illuminate\Http\Request;
 
@@ -33,15 +34,14 @@ class ItemController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ItemRequest $request)
     {
-        $item = new Item();
-        $item->item_name = $request->item_name;
-        $item->category_id = $request->category_id;
-        $item->type_id = $request->type_id;
-        $item->location_id = $request->location_id;
-        $item->stock = $request->stock;
-        $item->save();
+        $validateData = $request->validated();
+        $validateData['image'] = $request->file('image')->store('item-images');
+
+
+        $item = Item::create($validateData);
+        return Item::with("category")->with("type")->with("location")->get();
     }
 
     /**
@@ -52,7 +52,7 @@ class ItemController extends Controller
      */
     public function show(Item $item)
     {
-        //
+        return $item->with("category")->with("type")->with("location");
     }
 
     /**
@@ -73,9 +73,13 @@ class ItemController extends Controller
      * @param  \App\Models\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Item $item)
+    public function update(ItemRequest $request, Item $item)
     {
-        //
+        $validateData = $request->validated();
+        $validateData['image'] = "item-images/s.png";
+        // return $validateData;
+        $items = $item->update($validateData);
+        return $items;
     }
 
     /**
