@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Rent;
 
-use App\Models\Location;
+use App\Http\Controllers\Controller;
+use App\Models\Type;
 use Illuminate\Http\Request;
 
-class LocationController extends Controller
+class TypeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,7 @@ class LocationController extends Controller
      */
     public function index()
     {
-        return Location::all();
+        return Type::all();
     }
 
     /**
@@ -35,19 +36,19 @@ class LocationController extends Controller
      */
     public function store(Request $request)
     {
-        $location = new Location();
-        $location->value = $request->value;
-        $location->save();
-        return Location::all();
+        $type = new Type();
+        $type->value = $request->value;
+        $type->save();
+        return Type::all();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Location  $location
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function show(Location $location)
+    public function show(Type $type)
     {
         //
     }
@@ -55,10 +56,10 @@ class LocationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Location  $location
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function edit(Location $location)
+    public function edit(Type $type)
     {
         //
     }
@@ -67,10 +68,10 @@ class LocationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Location  $location
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Location $location)
+    public function update(Request $request, Type $type)
     {
         //
     }
@@ -78,10 +79,10 @@ class LocationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Location  $location
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Location $location)
+    public function destroy(Type $type)
     {
         //
     }

@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Rent;
 
-use App\Models\Category;
+use App\Http\Controllers\Controller;
+use App\Models\Location;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class LocationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return Category::all();
+        return Location::all();
     }
 
     /**
@@ -35,19 +36,19 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        $category = new Category();
-        $category->value = $request->value;
-        $category->save();
-        return Category::all();
+        $location = new Location();
+        $location->value = $request->value;
+        $location->save();
+        return Location::all();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)
+    public function show(Location $location)
     {
         //
     }
@@ -55,10 +56,10 @@ class CategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function edit(Category $category)
+    public function edit(Location $location)
     {
         //
     }
@@ -67,10 +68,10 @@ class CategoryController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request, Location $location)
     {
         //
     }
@@ -78,10 +79,10 @@ class CategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\Location  $location
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
+    public function destroy(Location $location)
     {
         //
     }

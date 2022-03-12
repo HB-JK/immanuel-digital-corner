@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Rent;
 
-use App\Models\Type;
+use App\Http\Controllers\Controller;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
-class TypeController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,7 @@ class TypeController extends Controller
      */
     public function index()
     {
-        return Type::all();
+        return Category::all();
     }
 
     /**
@@ -35,19 +36,19 @@ class TypeController extends Controller
      */
     public function store(Request $request)
     {
-        $type = new Type();
-        $type->value = $request->value;
-        $type->save();
-        return Type::all();
+        $category = new Category();
+        $category->value = $request->value;
+        $category->save();
+        return Category::all();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Type  $type
+     * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Type $type)
+    public function show(Category $category)
     {
         //
     }
@@ -55,10 +56,10 @@ class TypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Type  $type
+     * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit(Type $type)
+    public function edit(Category $category)
     {
         //
     }
@@ -67,10 +68,10 @@ class TypeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Type  $type
+     * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Type $type)
+    public function update(Request $request, Category $category)
     {
         //
     }
@@ -78,10 +79,10 @@ class TypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Type  $type
+     * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Type $type)
+    public function destroy(Category $category)
     {
         //
     }

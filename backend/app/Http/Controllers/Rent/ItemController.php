@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Rent;
 
+use App\Http\Controllers\Controller;
 use App\Http\Requests\ItemRequest;
 use App\Models\Item;
 use Illuminate\Http\Request;
