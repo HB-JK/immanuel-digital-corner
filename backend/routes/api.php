@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Rent\TypeController;
 use App\Http\Controllers\Rent\CategoryController;
 use App\Http\Controllers\Rent\ItemController;
@@ -22,9 +23,17 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::group(['prefix' => 'rent'], function() {
-    Route::resource("types", TypeController::class);
-    Route::resource("categories", CategoryController::class);
-    Route::resource("locations", LocationController::class);
-    Route::resource("items", ItemController::class);
+Route::group(['prefix' => 'auth'], function() {
+    Route::post('login', [AuthController::class, 'login']);
+    Route::post('logout', [AuthController::class, 'logout']);
+    Route::post('me', [AuthController::class, 'me']);
+});
+
+Route::group(['middleware' => 'jwt'], function() {
+    Route::group(['prefix' => 'rent'], function() {
+        Route::resource("types", TypeController::class);
+        Route::resource("categories", CategoryController::class);
+        Route::resource("locations", LocationController::class);
+        Route::resource("items", ItemController::class);
+    });
 });
