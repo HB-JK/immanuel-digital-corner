@@ -27,7 +27,7 @@ With this application, we hope that in the future communication between the scho
 
 ### Framework
 - Laravel 8 with PHP 8.x
-- Vue 2
+- Vue 3
 - Tailwind CSS
 - Flutter
 
